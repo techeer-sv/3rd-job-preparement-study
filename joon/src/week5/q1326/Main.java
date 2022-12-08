@@ -12,6 +12,21 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+/*
+퐁당퐁당
+예제 입력
+5
+1 2 2 1 2
+1 5
+
+5
+2 1 1 1 1
+1 5
+
+예제 출력
+1
+ */
+
 public class Main {
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static StringBuilder result = new StringBuilder();
@@ -86,16 +101,3 @@ public class Main {
     }
 }
 
-/*
-예제 입력
-5
-1 2 2 1 2
-1 5
-
-5
-2 1 1 1 1
-1 5
-
-예제 출력
-1
- */
