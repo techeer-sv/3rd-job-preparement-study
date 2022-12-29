@@ -44,7 +44,7 @@ public class Main {
         bw.close();
     }
 
-    private static void dfs(int x, int y) {
+    public static void dfs(int x, int y) {
         if (grid[x][y]) {
             grid[x][y] = false;
             if (x - 1 > -1) {

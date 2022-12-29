@@ -22,7 +22,6 @@ public class Main {
 
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     static StringBuilder result = new StringBuilder();
-
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static int[][] originalGrid;
