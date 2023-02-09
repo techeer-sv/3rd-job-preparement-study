@@ -1,7 +1,6 @@
 n, m = map(int, input().split())
 
 s = []
-# visited = [False] * (n + 1)
 
 def dfs():
     if len(s) == m:
