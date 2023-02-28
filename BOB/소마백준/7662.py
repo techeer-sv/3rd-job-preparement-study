@@ -6,9 +6,9 @@ def solution(di_list, value_list):
     visited = [False] * 1000000
     
     for i in range(len(di_list)):
-        # in
+        # insert
         if di_list[i] == 'I':
-            heapq.heappush(max_h, (-1 * value_list[i], i))
+            heapq.heappush(max_h, (-value_list[i], i))
             heapq.heappush(min_h, (value_list[i], i))
             visited[i] = True
         # delete
@@ -48,7 +48,7 @@ def solution(di_list, value_list):
             break
     
     if min_h:
-        print(-1*max_h[0][0], min_h[0][0])
+        print(-max_h[0][0], min_h[0][0])
     else:
         print("EMPTY")
         
